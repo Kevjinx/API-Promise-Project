@@ -36,9 +36,6 @@ const fetchFilms = () => {
 fetchFilms().then((res) => {printFetch(res)})
 
 
-
-
-
 // Promise.all(fetchFilms(), {})
 //   .then((res) => res.json())
 //   .then(json =>console.log(json))
